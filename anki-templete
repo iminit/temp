@@ -1,0 +1,38 @@
+正面：
+{{问题}} <br>
+<div style='font-family: Arial; font-size: 12px;float:left;color:	#D3D3D3'>《{{《》}}》</div>
+
+样式：
+.card {
+ font-family: arial;
+ font-size: 20px;
+ text-align: left;
+ color: black;
+ background-color: white;
+}
+
+.kbd {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9)stop(1, #e9e9e9) );
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    font-size: 0.8em;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+背面：
+{{FrontSide}}<br>
+<hr id=answer>
+
+{{答案}}<br>
+<br>
+<div style='font-family: Arial; font-size: 18px;'><div style="float:left"> {{hint:编码}}</div></div><br>
+<div style='font-family: Arial; font-size: 18px;float:left'>{{hint:例子}}</div>
+<br>
+<div style='font-family: Arial; font-size: 18px;'>{{hint:拓展}}</div><br>
